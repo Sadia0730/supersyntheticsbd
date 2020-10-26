@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Super Synthetics Limited</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+  text-align:justify;
+  text-align-last:left;
+}
+
+.jumbotron {
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+}
+p{
+  text-align: justify-content;
+  text-align-last: left;
+
+}
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/*         navbar        */
+
+.navbar {
+     margin-bottom: 0;
+     background-color: #494429;
+     border-bottom: 2px solid rgb(255,255,255);
+     z-index: 9999; 
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 4px;
+     border-radius: 0;
+     min-height:88px;         /*newly added */
+  }
+.navbar-fixed-top{height: 88px;}  /*newly added */
+.navbar-nav{padding: 15px 0;}     /*newly added */
+.navbar-header{height: 88px;}     /*newly added */
+.navbar-collapse{
+  background-color: #494429;      /*newly added */
+}
+  .navbar img{
+      width:216px;
+  }
+ .navbar-text{
+  padding: 15px 0;     /*newly added */
+ }
+@media screen and (max-width: 900px) {
+  .navbar-brand img{
+      width:100px;              /*newly added */
+      height:88px;
+  }
+  .navbar-text{
+      font-size:12px !important;
+      line-height: 80px; 
+      letter-spacing:1px;
+
+  }
+
+}
+  .navbar-brand{
+    padding-top: 0px;             /*newly added before it was 2px*/
+  }
+  .navbar ul{
+      margin-right:5px;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #494429 !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+        height:50px;
+    width:50px;
+    margin-top:20px;
+    border-color: white;
+    color: #fff !important;
+  }
+
+    .navbar-collapse{
+    text-align: center;
+  }
+   .navbar-text{
+    color: #fff !important;
+    font-size: 15px;
+    font-family: 'SiyamRupali', sans-serif;
+  }
+    /*-----------------------TITTLE----------------------------*/
+  .jumbotron {
+    background-image: url("images/dty300576.jpg");
+    color: #fff;
+    padding: 150px 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+
+  }
+
+#dty{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  line-height: 1.5em;
+  font-size: 15px;
+  text-align: justify;
+  text-align-last: left;
+}
+/*
+#black{
+    background-color:black;
+    color:white;
+}
+#table2{
+    background-color:white;
+    color:black;
+}*/
+
+  /*-----------------------footer----------------------------*/
+  #footer{
+    background-color: #494429;
+    color: #f7f7db;
+    margin: 0px;
+    padding: 0px;
+  }
+  #footer .row{
+      text-align: center;
+  }
+  #footer h3{
+    color: #fff;
+  }
+
+.logosuper{
+  
+  margin-top: 100px;
+}
+.flogo{
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  color:#f7f7db;
+  transition: .3s;
+  cursor: pointer;
+  transition: .2s;
+  }
+  .flogo:hover{
+  color:#f7f7db;
+  text-shadow:  0 4px 8px 0 rgba(0, 1, 0, 0.8);
+  transform: scale(1.5);
+  }
+.text{
+    text-align:left;
+}
+  #table tr{
+     
+    outline: none;
+   
+
+  }
+    #table td{
+    padding: 10px;
+
+  }
+
+  @media  screen and (max-width: 1200px){
+    #table{
+      margin-left: auto;
+      margin-right:auto;
+    }
+    #footer h3{
+        font-size: 25px;
+        font-weight: 100;
+    }
+     #footer .container{
+       padding-left: 40px;
+    }
+    .md-mb-30{
+      margin-bottom: 100px;
+      
+    }
+      @media  screen and (max-width:767px){
+    .sm-mb-30{
+     
+      margin-bottom: 100px;
+    }
+  }
+  </style>
+
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://supersyntheticsbd.com/" ><img src="images/logo.gif" style="height:80px; padding-top:8px;"></a>
+      <span class="navbar-text">
+    সুপার সিন্থেটিক্‌স  লিমিটেড
+  </span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html#front">HOME</a></li>  
+        <li><a href="index.html#about">ABOUT</a></li>
+        <li><a href="index.html#services">WHY US</a></li>
+        <li><a href="index.html#product">PRODUCTS</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+      </ul>
+    </div>
+</nav>
+
+
+
+    
+<div class="jumbotron">
+   <h1>Polyester DTY</h1>
+  
+</div>
+
+
+<section class="container" >
+  <div class="row">
+
+    <div class="col-md-12">
+      <h3 style="color:black;">Drawn Textured Yarn (DTY)</h3>
+      <p>Polyester POY is simultaneously twisted and drawn to obtain Drawn Textured Yarn (DTY). DTY yarn can be in Semi Dull, Bright, or Triloble Bright depending upon the kind of areas of filaments. Technical Properties of DTY yarn can be moulded in a few ways to make the yarn reasonable for its vast uses. In addition, the DTY yarn can be made with a several combination of Intermingle points, it can be -</p>
+                            <ul>
+                                <li>Non-Intermingle (NIM) having 0 – 10 knots/meter or </li>
+                                 <li>Semi-Intermingle (SIM) having 40 – 50 knots/meter or </li>
+                                  <li>High-Intermingle (HIM) having 100 – 120 knots/meter. </li>
+                            </ul>
+                            <p>However, we have only NIM and HIM at present in our production line.</p>
+                            <p>DTY yarn is mainly used in weaving and knitting of fabrics for making garments, home decorations, seat covers, bags, and numerous different things. DTY is suitable for fabric like outer & inner garments, skin-clinging garments, furnishings, upholstery, etc. This is a replacement of cotton and cotton blend yarns with very low moisture content. In our country Bangladesh, a huge consumption of Polyester DTY is seen in making of Fishing Nets, Mosquito Curtains and polyester fleece blankets.</p>
+                            
+
+    </div>
+  </div>
+
+                      <div class="col-md-10 scrollable" >
+                        <h3 style="color: black;" >POLYESTER DRAWN TEXTURED YARN (POLYESTER DTY)</h3>
+
+                        <table  class="table table-bordered">
+                            <tbody>
+                              <thead class="bg-success white-text">
+                                <tr >
+                                    <td ><strong>Denier / Filaments </strong></td>
+                                    <td ><strong>Intermingle</strong></td>
+                                    <td ><strong>Lustre</strong></td>
+                                    <td ><strong>Color / Luster</strong></td>
+                                </tr>
+                                </thead>
+                                <tr class="table-light">
+                                    <td style="text-align: center;">50D/36F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">75D/36F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">75D/72F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">100D/36F</td>
+                                    <td style="text-align: center;">NIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">100D/96F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">150D/48F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">150D/96F</td>
+                                    <td style="text-align: center;">SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                 <tr>
+                                    <td style="text-align: center;">150D/144F</td>
+                                    <td style="text-align: center;">SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">200D/96F</td>
+                                    <td style="text-align: center;">NIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">250D/96F</td>
+                                    <td style="text-align: center;">NIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td style="text-align: center;">300D/96F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">300D/144F</td>
+                                    <td style="text-align: center;">NIM / SIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+
+                    </div>
+                    
+                    
+                    
+                    <div class="col-md-12 scrollable " id="black">
+                        <h3 style="color: black;">DRAW TEXTURED YARN (DTY / PTY) - DOPE DYED BLACK &amp; COLOR</h3>
+
+                        <table  class="table table-bordered" id="table2">
+                            <tbody>
+                              <thead class="bg-success white-text">
+                                <tr >
+                                    <td ><strong>Denier / Filaments </strong></td>
+                                    <td ><strong>Intermingle</strong></td>
+                                    <td ><strong>Lustre</strong></td>
+                                    <td ><strong>Color</strong></td>
+                                </tr>
+                                </thead>
+ 
+                                <tr>
+                                    <td style="text-align: center;">75D/36F</td>
+                                    <td style="text-align: center;">NIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">100D/36F</td>
+                                    <td style="text-align: center;">NIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">150D/48F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">300D/96F</td>
+                                    <td style="text-align: center;">NIM / SIM / HIM</td>
+                                    <td style="text-align: center;">SEMI-DULL</td>
+                                    <td style="text-align: center;">RW</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                   
+</section>
+ <br><br><br><br>
+<!-- FOOTER -->
+<div id="footer">
+  <br><br><br>
+  <div class="container">
+   <div class="row">
+
+    <div class="col-md-4 col-xs-12 md-mb-30 sm-mb-30">
+      <h3 >Corporate Office Address</h3>
+      <hr>
+ <table cellpadding="10" cellspacing="70" id="table">
+
+  <tbody>
+    <tr>
+      <td><a href="https://goo.gl/maps/gJJCuWDn1GEqqrYQ9"><span class="glyphicon glyphicon-map-marker flogo"></span></a></td>
+      <td class="text">T.K. Group, <br> 83 Khatungonj, Chattogram -4000, <br> Bangladesh.</td>
+    
+    </tr>
+    <tr>
+      <td> <span class="glyphicon glyphicon-phone-alt flogo"></span></td>
+      <td class="text"> +88 031 624827, +88 031 616608, <br>+88 031 2854301</td>
+    </tr>
+    <tr>
+      <td><span class="glyphicon glyphicon-earphone flogo"></span></td>
+      <td class="text">+88 01841 587747, +88 01841 587735</td>
+    </tr>
+      <tr>
+      <td><span class="glyphicon glyphicon-envelope flogo"></span></td>
+      <td class="text"> info@supersyntheticsbd.com</td>
+    </tr>
+  </tbody>
+</table>
+
+
+    </div>
+
+    <div class="col-md-4 col-xs-12 md-mb-30 sm-mb-30">
+      <h3>Factory Address</h3>
+      <hr>
+        <table cellpadding="10" cellspacing="70" id="table">
+
+  <tbody>
+    <tr>
+      <td class="ficon"><a href="https://goo.gl/maps/G2q21uF7wRyHFZrZ8"><span class="glyphicon glyphicon-map-marker flogo"></span></a></td>
+      <td class="text">Super Knitting Complex, <br> Bayezid Bostami Road, <br> Nasirabad Industrial Area, <br> Chattogram, -4210 Bangladesh.</td>
+    
+    </tr>
+    <tr>
+      <td class="ficon"> <span class="glyphicon glyphicon-phone-alt flogo"></span></td>
+      <td class="text"> +88 031 683021</td>
+    </tr>
+    <tr>
+      <td class="ficon"><span class="glyphicon glyphicon-earphone flogo"></span></td>
+      <td class="text">+88 01841 587740, +88 01841 587739, <br>+88 01841 587736</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+    <div class="col-md-4 col-xs-12 md-mb-30 sm-mb-30 logosuper">
+      <div class="row"><center><img src="images/logo.gif"></center> </div>
+      <div class="row"></div>
+    </div>
+  
+</div>
+  <hr style="height:2px;">
+  <br>
+ 
+  <br>
+</div>
+</div>
+
+
+</body>
+</html>
